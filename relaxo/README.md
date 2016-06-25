@@ -19,7 +19,7 @@ Relaxo only works with a specific HTML structure. You sure are allowed to rename
 ## JavaScript
 The only thing I would suggest, is to bind the `mouseBind` to the parent element, so the `mousemove` function only works over this element and not on the whole page.
 
-If you don't need it, you have to change the script a bit by removing the variable `mousemove` and on line 24 in `source.js` you have to put in `container`.
+If you don't need it, you have to change the script a bit by removing the variable `mouseBind` and on line 24 in `source.js` you have to put in `container`.
 
 ## What are the available settings?
 The settings can only be set inside the HTML with data-attributes.
